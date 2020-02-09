@@ -1,3 +1,5 @@
+#lets put some explanation here
+
 try:
     # Fix UTF8 output issues on Windows console.
     # Does nothing if package is not installed
