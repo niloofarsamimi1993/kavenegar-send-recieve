@@ -20,7 +20,7 @@ try:
         filename = 'numbers.js'
         with open(filename, 'w') as f_obj:
               json.dump(numbers, f_obj)
-    #loading stored numbers 
+    #loading stored numbers
     def load_stored_numbers():
         filename = 'numbers.js'
         with open(filename) as f_obj:
@@ -49,9 +49,10 @@ try:
     response = api.sms_send(params)
     #printing sending status
     print(response)
-#APIException returns a code that shows  API errors (methods,account,...)  
+#APIException returns a code that shows  API errors (methods,account,...)
 except APIException as e:
     print(e)
-#HTTPException returns a code that shows web errors    
+#HTTPException returns a code that shows web errors
 except HTTPException as e:
     print(e)
+# just trying to send a pull request to niloofar
